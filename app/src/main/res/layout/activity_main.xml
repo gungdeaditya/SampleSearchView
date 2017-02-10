@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.codemargonda.training.MainActivity">
+
+    <include
+        layout="@layout/toolbar_layout"/>
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:src="@drawable/google_now"-->
+        <!--android:scaleType="centerCrop"/>-->
+    <!---->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="@color/colorRed300"-->
+        <!--android:text="Margonda Training"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="20sp"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_klik"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="3"-->
+        <!--android:text="Klik"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:background="@color/colorPrimary"/>-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</LinearLayout>
